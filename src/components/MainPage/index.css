@@ -1,0 +1,24 @@
+.categoryTab-container {
+  margin-top: 12px;
+  width: 100%;
+  height: 60px;
+}
+.categoryTabtwo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 100%;
+  overflow-y: auto;
+  list-style: none;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding-top: 20px;
+}
+.undorder-container-categogy {
+  list-style: none;
+  padding: 8px;
+}
