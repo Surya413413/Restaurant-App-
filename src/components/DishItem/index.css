@@ -1,4 +1,4 @@
-.dishitem-container {
+.dish-item-card {
   display: flex;
   align-items: flex-start;
   padding: 10px;
@@ -8,7 +8,7 @@
   border-width: 2px;
   border-color: rgb(157, 152, 152);
 }
-.vegi {
+.box {
   border-style: solid;
   border-radius: 2px;
   border-width: 1px;
@@ -22,18 +22,18 @@
   border-color: rgb(51, 114, 51);
   background-color: rgb(228, 226, 226);
 }
-.vegetable-items {
+.high-rate-props {
   border-color: rgb(241, 32, 32);
   background-color: rgb(228, 226, 226);
 }
 
-.nonveg {
+.circle {
   width: 16px;
   height: 16px;
   border-radius: 50%;
   background-color: rgb(51, 114, 51);
 }
-.vegetable-items-nonveg {
+.high-rate-circle {
   background-color: red;
 }
 .content-div {
@@ -43,7 +43,7 @@
   margin-top: 0px;
   font-size: 16px;
 }
-.curreny-price{
+.money {
   font-size: 14px;
   font-weight: 530;
   margin-top: 5px;
@@ -70,7 +70,6 @@
   font-size: 18px;
   outline: none;
   border-style: none;
-  cursor: pointer;
 }
 .qunatity {
   color: white;
@@ -81,7 +80,7 @@
   font-weight: 500;
   margin-bottom: 0px;
 }
-.calories-box {
+.calories-num {
   font-size: 14px;
   font-weight: 530;
   color: rgb(246, 140, 33);
@@ -98,7 +97,7 @@
   font-size: 15px;
   font-weight: 500;
 }
-.veg-nonveg-container {
+.circle-content-card {
   display: flex;
   justify-content: flex-start;
 }
@@ -107,13 +106,13 @@
   justify-content: center;
   align-items: center;
 }
-.calorie-small {
+.calories-num-sm {
   align-self: center;
 }
-.calorie-large {
+.calories-num-lg {
   display: none;
 }
-.add-cart {
+.add-to-cart {
   background-color: rgb(235, 219, 5);
   outline: none;
   border-style: none;
@@ -127,13 +126,13 @@
   padding: 10px;
 }
 @media screen and (min-width: 768px) {
-  .dishitem-container {
+  .dish-item-card {
     justify-content: space-between;
   }
-  .calorie-small {
+  .calories-num-sm {
     display: none;
   }
-  .calorie-large {
+  .calories-num-lg {
     display: flex;
   }
   .cal-img-card {
@@ -145,20 +144,16 @@
     width: 160px;
     height: 160px;
   }
-  .calories-box {
+  .calories-num {
     font-size: 18px;
   }
   .name {
     font-size: 26px;
   }
-  .curreny-price {
+  .money {
     font-size: 18px;
   }
   .description {
     font-size: 18px;
   }
-}
-
-.count-items-para {
-  color: white;
 }
