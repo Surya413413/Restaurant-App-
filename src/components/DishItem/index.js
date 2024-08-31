@@ -90,7 +90,7 @@ class DishItem extends Component {
                 ) : (
                   ''
                 )}
-                {dishAvailability ? (
+                  {dishAvailability && quantity >= 1 && (
                   <button
                     type="button"
                     onClick={onAddNewItemToCart}
@@ -98,8 +98,6 @@ class DishItem extends Component {
                   >
                     ADD TO CART
                   </button>
-                ) : (
-                  ''
                 )}
               </div>
             </div>
